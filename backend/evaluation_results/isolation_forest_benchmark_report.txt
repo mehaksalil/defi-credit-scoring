@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+      Normal       0.77      0.90      0.83      1533
+       Fraud       0.10      0.04      0.06       436
+
+    accuracy                           0.71      1969
+   macro avg       0.43      0.47      0.44      1969
+weighted avg       0.62      0.71      0.66      1969
+
+WARNING: exploratory 47-feature baseline, NOT the deployed 13-feature Isolation Forest.

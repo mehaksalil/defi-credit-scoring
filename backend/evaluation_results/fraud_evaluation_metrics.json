@@ -1,0 +1,42 @@
+{
+  "dataset_path": "C:\\Users\\DELL\\OneDrive\\Desktop\\defi-credit-scoring-demo-updated\\defi-credit-scoring-demo\\ethereum_fraud_detection\\transaction_dataset.csv",
+  "total_records": 9841,
+  "total_columns_in_csv": 51,
+  "model_features": 47,
+  "train_records": 7872,
+  "test_records": 1969,
+  "label_counts_total": {
+    "0": 7662,
+    "1": 2179
+  },
+  "label_counts_test": {
+    "0": 1533,
+    "1": 436
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "accuracy": 0.9888268156424581,
+  "precision_fraud": 0.9662162162162162,
+  "recall_fraud": 0.9839449541284404,
+  "f1_fraud": 0.975,
+  "roc_auc": 0.998964673213762,
+  "confusion_matrix_labels": [
+    "normal(0)",
+    "fraud(1)"
+  ],
+  "confusion_matrix": [
+    [
+      1518,
+      15
+    ],
+    [
+      7,
+      429
+    ]
+  ],
+  "tn": 1518,
+  "fp": 15,
+  "fn": 7,
+  "tp": 429,
+  "evaluation_note": "Fresh Random Forest fitted only on the training split; held-out static-dataset metrics, not validation on live wallets or proof of loan-default prediction."
+}

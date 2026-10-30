@@ -1,0 +1,41 @@
+{
+  "evaluation_type": "exploratory_isolation_forest_47_feature_baseline",
+  "warning": "NOT the deployed 13-feature Isolation Forest. Benchmark labels are used only for held-out evaluation; model fitted on normal training rows only.",
+  "dataset_path": "C:\\Users\\DELL\\OneDrive\\Desktop\\defi-credit-scoring-demo-updated\\defi-credit-scoring-demo\\ethereum_fraud_detection\\transaction_dataset.csv",
+  "total_records": 9841,
+  "total_csv_columns": 51,
+  "feature_count": 47,
+  "train_records": 7872,
+  "normal_training_records": 6129,
+  "test_records": 1969,
+  "label_counts_total": {
+    "0": 7662,
+    "1": 2179
+  },
+  "random_state": 42,
+  "test_size": 0.2,
+  "contamination": 0.1,
+  "accuracy": 0.7079735906551549,
+  "precision_fraud": 0.09826589595375723,
+  "recall_fraud": 0.0389908256880734,
+  "f1_fraud": 0.05582922824302135,
+  "roc_auc": 0.48904229279999045,
+  "confusion_matrix_labels": [
+    "normal(0)",
+    "fraud(1)"
+  ],
+  "confusion_matrix": [
+    [
+      1377,
+      156
+    ],
+    [
+      419,
+      17
+    ]
+  ],
+  "tn": 1377,
+  "fp": 156,
+  "fn": 419,
+  "tp": 17
+}
